@@ -142,17 +142,6 @@ ul {
   overflow: hidden;
 }
 
-.about-me-main-title {
-  border-bottom: 1px solid #efefef;
-  padding: 30px 10px 2px 40px;
-  position: relative;
-}
-
-.about-me-content {
-  padding: 40px;
-  margin-bottom: 30px
-}
-
 .about-me .profile {
   margin-bottom: 30px
 }
@@ -166,3 +155,77 @@ ul {
   font-size: 22px;
   color: #777777;
 }
+
+.main-title {
+  border-bottom: 1px solid #efefef;
+  padding: 15px 10px 2px 40px;
+  position: relative;
+}
+
+.content {
+  padding: 20px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline:before {
+    background: #ededed;
+    bottom: 0;
+    content: "";
+    left: 18px;
+    position: absolute;
+    top: 0;
+    width: 3px;
+    height: 100%;
+}
+
+.timeline:after {
+    background: #ffffff;
+    border: 3px solid #efefef;
+    font-family: 'FontAwesome';
+    top: 0;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    line-height: 45px;
+    border-radius: 100%;
+}
+
+.timeline-holder {
+    margin-top: 60px
+}
+
+.timeline-item {
+    padding-left: 50px;
+    padding-top: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.timeline-item:after {
+    background: rgb(150, 97, 171);
+    border: 3px solid #ffffff;
+    content: "";
+    height: 15px;
+    left: 12px;
+    position: absolute;
+    text-align: center;
+    top: 32px;
+    width: 15px;
+    border-radius: 100%;
+}
+
+.timeline-item-head {
+  margin-bottom: 5px;
+}
+
+.timeline.experience:after {
+  content: "\f0b1";
+}
+
+/**/
