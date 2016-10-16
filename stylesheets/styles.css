@@ -251,6 +251,34 @@ ul {
   text-transform: uppercase;
   top: 0;
 }
+
+.skill.code .progress-bar {
+  background-color: #9661ab;
+}
+
+.skill.admin .skill-title {
+  border: 1px dashed #73527f;
+}
+
+.skill.admin .progress-bar {
+  background-color: #73527f;
+}
+
+.skill.devops .skill-title {
+  border: 1px dashed #5b4763;
+}
+
+.skill.devops .progress-bar {
+  background-color: #5b4763;
+}
+
+.skill.other .skill-title {
+  border: 1px dashed #1d1a1f;
+}
+
+.skill.other .progress-bar {
+  background-color: #1d1a1f;
+}
 /* end skill*/
 
 
