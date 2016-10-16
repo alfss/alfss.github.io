@@ -166,6 +166,8 @@ ul {
   padding: 20px;
 }
 
+/* timeline */
+
 .timeline {
   position: relative;
 }
@@ -228,4 +230,68 @@ ul {
   content: "\f0b1";
 }
 
-/**/
+.timeline.education:after {
+  content: "\f19d";
+}
+/* end timeline */
+
+/*skill*/
+.skill {
+  display: flex;
+  align-items: center;
+}
+
+.skill-title {
+  border: 1px dashed #9661ab;
+  transform: rotate(-90deg);
+  left: -15px;
+  padding: 5px 25px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+}
+/* end skill*/
+
+
+/* media */
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .skill {
+    display:inline !important;
+  }
+  .skill-title {
+    transform:rotate(0deg);
+    position:static;
+    margin-top:25px;
+  }
+  .nopr {
+    padding-right: 15px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .skill {
+    display:inline !important;
+  }
+  .skill-title {
+    transform:rotate(0deg);
+    position:static;
+    margin-top:25px;
+  }
+  .nopr {
+    padding-right: 15px;
+  }
+}
+@media only screen and (max-width:479px) {
+  .skill {
+    display:inline !important;
+  }
+  .skill-title {
+    transform:rotate(0deg);
+    position:static;
+    margin-top:25px;
+  }
+  .nopr {
+    padding-right: 15px;
+  }
+}
+/* */
