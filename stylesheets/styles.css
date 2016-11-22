@@ -226,6 +226,18 @@ ul {
   margin-bottom: 5px;
 }
 
+.timeline-duties-items {
+  list-style: outside;
+}
+
+.timeline-duties-items li { 
+  color: rgb(150, 97, 171);
+}
+
+
+.timeline-duties-items span { 
+  color: black;
+}
 .timeline.experience:after {
   content: "\f0b1";
 }
